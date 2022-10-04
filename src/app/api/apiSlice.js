@@ -3,7 +3,7 @@ import { setCredentials } from '../../features/auth/authSlice'
 
 const baseQuery = fetchBaseQuery({
     // baseUrl: 'http://localhost:3500',   during development
-    baseUrl: 'https://technotes-api.onrender.com',
+    baseUrl: 'https://technotes-api-hgv5.onrender.com',
     credentials: 'include',
     prepareHeaders: (headers, { getState }) => {
         const token = getState().auth.token
